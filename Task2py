@@ -1,0 +1,8 @@
+# range from user
+a=int(input("Enter range of numbers:"))
+sum=0
+for i in range(a):
+    if i%2==0:
+# for sum
+        sum=sum+i
+print("Sum of even no within given range is:",sum)
